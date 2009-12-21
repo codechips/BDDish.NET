@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specifications", "Specifications\Specifications.csproj", "{561ACBDC-2CC4-4583-A991-9AD19A696F52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{23CE4E83-2C99-49C7-B95C-7CCB6433063D}"
+	ProjectSection(SolutionItems) = preProject
+		BDD.vsmdi = BDD.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xunit.BDD", "xUnit.BDD\Xunit.BDD.csproj", "{2391E79F-788A-4524-A764-F6F33B620E02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.BDD", "NUnit.BDD\NUnit.BDD.csproj", "{28B72480-2134-4435-9C81-F644D38810BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specifications.Tests", "Specifications.Tests\Specifications.Tests.csproj", "{3AF60B42-7A75-4B7B-AF73-34544D2A7F53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.BDD.Tests", "NUnit.BDD.Tests\NUnit.BDD.Tests.csproj", "{2364DE92-986F-4441-8D10-E557871EF0E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xunit.BDD.Tests", "xUnit.BDD.Tests\Xunit.BDD.Tests.csproj", "{BCDB3565-1CE1-49BE-B6B3-798D0F687E1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{561ACBDC-2CC4-4583-A991-9AD19A696F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{561ACBDC-2CC4-4583-A991-9AD19A696F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{561ACBDC-2CC4-4583-A991-9AD19A696F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{561ACBDC-2CC4-4583-A991-9AD19A696F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2391E79F-788A-4524-A764-F6F33B620E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2391E79F-788A-4524-A764-F6F33B620E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2391E79F-788A-4524-A764-F6F33B620E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2391E79F-788A-4524-A764-F6F33B620E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B72480-2134-4435-9C81-F644D38810BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B72480-2134-4435-9C81-F644D38810BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B72480-2134-4435-9C81-F644D38810BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B72480-2134-4435-9C81-F644D38810BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF60B42-7A75-4B7B-AF73-34544D2A7F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF60B42-7A75-4B7B-AF73-34544D2A7F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF60B42-7A75-4B7B-AF73-34544D2A7F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF60B42-7A75-4B7B-AF73-34544D2A7F53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2364DE92-986F-4441-8D10-E557871EF0E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2364DE92-986F-4441-8D10-E557871EF0E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2364DE92-986F-4441-8D10-E557871EF0E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2364DE92-986F-4441-8D10-E557871EF0E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCDB3565-1CE1-49BE-B6B3-798D0F687E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCDB3565-1CE1-49BE-B6B3-798D0F687E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCDB3565-1CE1-49BE-B6B3-798D0F687E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCDB3565-1CE1-49BE-B6B3-798D0F687E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{561ACBDC-2CC4-4583-A991-9AD19A696F52}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Specifications</RootNamespace>
+    <AssemblyName>Specifications</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Asserts\IReferenceAssert.cs" />
+    <Compile Include="Builders\EnumerableAssertBuilder.cs" />
+    <Compile Include="Builders\ReferenceAssertBuilder.cs" />
+    <Compile Include="Criterias\AsCriteria.cs" />
+    <Compile Include="Builders\BooleanAssertBuilder.cs" />
+    <Compile Include="Builders\GenericEnumerableAssertBuilder.cs" />
+    <Compile Include="Builders\ComparableAssertBuilder.cs" />
+    <Compile Include="Builders\NegationGenericBuilder.cs" />
+    <Compile Include="Criterias\SameCriteria.cs" />
+    <Compile Include="Criterias\ThanCriteria.cs" />
+    <Compile Include="Builders\GenericBuilder.cs" />
+    <Compile Include="Criterias\ToCriteria.cs" />
+    <Compile Include="Criterias\WithCriteria.cs" />
+    <Compile Include="ExceptionHandler.cs" />
+    <Compile Include="Factory.cs" />
+    <Compile Include="IAssertionFactory.cs" />
+    <Compile Include="Builders\ObjectAssertBuilder.cs" />
+    <Compile Include="Builders\StringAssertBuilder.cs" />
+    <Compile Include="Asserts\IComparableAssert.cs" />
+    <Compile Include="Asserts\IEnumerableAssert.cs" />
+    <Compile Include="Asserts\IGenericEnumerableAssert.cs" />
+    <Compile Include="Asserts\IEqualityAssert.cs" />
+    <Compile Include="Asserts\IStringAssert.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
