@@ -13,6 +13,8 @@ straight forward error messages.
 Installation
 ------------
 
+Coming soon. If you want to take it out for a spin right now => open solution, compile, add references to your project
+
 Examples
 --------
 
